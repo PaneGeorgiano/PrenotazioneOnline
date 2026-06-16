@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Informativa Privacy — Ristorante Georgiano</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root { --dark: #8B1A1A; --border: #d0d8ea; --muted: #6b7a99; --bg: #f0f4fa; }
+    body { background: var(--bg); font-family: 'Segoe UI', system-ui, sans-serif; color: #1a1a1a; min-height: 100vh; }
+
+    .topbar { position: sticky; top: 0; z-index: 100; background: #fff; border-bottom: 1px solid var(--border); padding: 0 32px; height: 60px; display: flex; align-items: center; gap: 12px; }
+    .topbar a { font-size: .88rem; font-weight: 600; color: var(--muted); text-decoration: none; }
+    .topbar a:hover { color: var(--dark); }
+    .topbar-title { font-size: .95rem; font-weight: 700; color: #1a1a1a; }
+
+    .hero { background: var(--dark); padding: 48px 32px 40px; text-align: center; }
+    .hero h1 { font-size: clamp(1.5rem, 3.5vw, 2.2rem); font-weight: 800; color: #fff; }
+    .hero p { font-size: .9rem; color: rgba(255,255,255,.6); margin-top: 8px; }
+
+    .content { max-width: 720px; margin: 0 auto; padding: 40px 24px 80px; }
+
+    .section { background: #fff; border-radius: 16px; padding: 28px 32px; margin-bottom: 18px; border: 1.5px solid var(--border); }
+    .section h2 { font-size: .8rem; font-weight: 800; color: var(--dark); text-transform: uppercase; letter-spacing: .8px; margin-bottom: 14px; }
+    .section p, .section li { font-size: .92rem; color: #333; line-height: 1.7; margin-bottom: 10px; }
+    .section ul { padding-left: 20px; }
+    .section li { margin-bottom: 6px; }
+    .section p:last-child, .section li:last-child { margin-bottom: 0; }
+
+    .highlight { background: #fff8f8; border-left: 3px solid var(--dark); border-radius: 0 8px 8px 0; padding: 12px 16px; margin-top: 10px; font-size: .88rem; color: #555; line-height: 1.6; }
+
+    .placeholder { background: #fef9c3; border: 1.5px dashed #fbbf24; border-radius: 8px; padding: 10px 14px; font-size: .82rem; color: #78350f; font-weight: 600; margin-bottom: 14px; }
+
+    .update-date { text-align: center; font-size: .78rem; color: var(--muted); margin-top: 32px; }
+
+    @media (max-width: 580px) {
+      .section { padding: 20px 18px; }
+      .topbar { padding: 0 16px; }
+      .hero { padding: 36px 20px 30px; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="topbar">
+  <a href="index.html">← Torna alla prenotazione</a>
+  <span class="topbar-title">Informativa Privacy</span>
+</div>
+
+<div class="hero">
+  <h1>Informativa sulla Privacy</h1>
+  <p>Ai sensi del Regolamento UE 2016/679 (GDPR)</p>
+</div>
+
+<div class="content">
+
+  <div class="placeholder">
+    ⚠️ Compila i campi evidenziati con i dati reali del tuo ristorante prima di pubblicare il sito.
+  </div>
+
+  <div class="section">
+    <h2>1. Titolare del Trattamento</h2>
+    <p>Il Titolare del trattamento dei dati personali è:</p>
+    <p>
+      <strong>Ristorante Georgiano</strong><br>
+      Via / Piazza <strong>[INDIRIZZO]</strong>, <strong>[CAP]</strong> <strong>[CITTÀ]</strong><br>
+      P.IVA: <strong>[PARTITA IVA]</strong> — <em>la trovi su scontrini, fatture o su <a href="https://www.ristorantepanegeorgiano.com/" target="_blank" rel="noopener">ristorantepanegeorgiano.com</a></em><br>
+      Sito web: <a href="https://www.ristorantepanegeorgiano.com/" target="_blank" rel="noopener">www.ristorantepanegeorgiano.com</a><br>
+      Email: <strong>[EMAIL DEL RISTORANTE]</strong><br>
+      Telefono: <strong>[NUMERO DI TELEFONO]</strong>
+    </p>
+  </div>
+
+  <div class="section">
+    <h2>2. Dati Raccolti</h2>
+    <p>Tramite il modulo di prenotazione raccogliamo i seguenti dati personali:</p>
+    <ul>
+      <li>Nome e cognome</li>
+      <li>Indirizzo email</li>
+      <li>Numero di telefono</li>
+      <li>Data e orario della prenotazione</li>
+      <li>Numero di persone</li>
+    </ul>
+    <p>Non raccogliamo dati sensibili (categorie particolari ai sensi dell'Art. 9 GDPR).</p>
+  </div>
+
+  <div class="section">
+    <h2>3. Finalità e Base Giuridica</h2>
+    <p>I dati vengono trattati esclusivamente per:</p>
+    <ul>
+      <li><strong>Gestire la prenotazione</strong> e inviarti una conferma via email</li>
+      <li><strong>Contattarti</strong> in caso di necessità legate alla tua prenotazione (es. variazioni di orario, chiusure straordinarie)</li>
+    </ul>
+    <p>La base giuridica del trattamento è l'<strong>esecuzione di misure precontrattuali</strong> adottate su richiesta dell'interessato (Art. 6, par. 1, lett. b, GDPR).</p>
+    <div class="highlight">I tuoi dati <strong>non vengono usati per marketing, profilazione o invio di newsletter</strong>. Non ti contatteremo per scopi diversi dalla gestione della tua prenotazione.</div>
+  </div>
+
+  <div class="section">
+    <h2>4. Destinatari dei Dati</h2>
+    <p>I dati potranno essere comunicati ai seguenti soggetti, esclusivamente per le finalità indicate:</p>
+    <ul>
+      <li><strong>FormSubmit.co</strong> — servizio tecnico per l'invio della notifica email al ristorante (responsabile del trattamento). Privacy policy: <a href="https://formsubmit.co/privacy" target="_blank" rel="noopener">formsubmit.co/privacy</a></li>
+      <li><strong>JSONBin.io</strong> — servizio di archiviazione dati utilizzato per conservare le prenotazioni (responsabile del trattamento). Privacy policy: <a href="https://jsonbin.io/privacy-policy" target="_blank" rel="noopener">jsonbin.io/privacy-policy</a></li>
+    </ul>
+    <p>I tuoi dati <strong>non vengono ceduti, venduti o comunicati a terzi</strong> per scopi commerciali o di altro tipo.</p>
+    <p>Entrambi i servizi sopra indicati operano come responsabili del trattamento ai sensi dell'Art. 28 GDPR e trattano i dati esclusivamente secondo le nostre istruzioni.</p>
+  </div>
+
+  <div class="section">
+    <h2>5. Conservazione dei Dati</h2>
+    <p>I tuoi dati vengono conservati per il tempo strettamente necessario a gestire la prenotazione, e comunque non oltre <strong>30 giorni dalla data della prenotazione</strong>.</p>
+    <p>Trascorso tale periodo, i dati vengono cancellati dal sistema.</p>
+  </div>
+
+  <div class="section">
+    <h2>6. Trasferimento Dati Extra-UE</h2>
+    <p>I servizi tecnici utilizzati (FormSubmit.co e JSONBin.io) potrebbero conservare dati su server al di fuori dell'Unione Europea. In tal caso, il trasferimento avviene nel rispetto delle garanzie previste dagli Artt. 44-49 GDPR (clausole contrattuali standard o decisioni di adeguatezza della Commissione Europea).</p>
+  </div>
+
+  <div class="section">
+    <h2>7. I Tuoi Diritti</h2>
+    <p>Ai sensi degli Artt. 15-22 GDPR, hai il diritto di:</p>
+    <ul>
+      <li><strong>Accesso</strong> — ottenere conferma che i tuoi dati siano trattati e riceverne copia</li>
+      <li><strong>Rettifica</strong> — correggere dati inesatti o incompleti</li>
+      <li><strong>Cancellazione</strong> ("diritto all'oblio") — richiedere la cancellazione dei tuoi dati</li>
+      <li><strong>Limitazione</strong> — richiedere la sospensione temporanea del trattamento</li>
+      <li><strong>Portabilità</strong> — ricevere i tuoi dati in formato strutturato e leggibile</li>
+      <li><strong>Opposizione</strong> — opporti al trattamento in qualsiasi momento</li>
+    </ul>
+    <p>Per esercitare i tuoi diritti, scrivi a: <strong>[EMAIL DEL RISTORANTE]</strong></p>
+    <p>Risponderemo entro <strong>30 giorni</strong> dalla ricezione della richiesta, come previsto dal GDPR.</p>
+  </div>
+
+  <div class="section">
+    <h2>8. Reclamo all'Autorità di Controllo</h2>
+    <p>Se ritieni che il trattamento dei tuoi dati violi il GDPR, hai il diritto di proporre reclamo al <strong>Garante per la Protezione dei Dati Personali</strong>:</p>
+    <p>
+      Sito web: <a href="https://www.garanteprivacy.it" target="_blank" rel="noopener">www.garanteprivacy.it</a><br>
+      Email: <a href="mailto:garante@gpdp.it">garante@gpdp.it</a>
+    </p>
+  </div>
+
+  <p class="update-date">Ultimo aggiornamento: giugno 2026</p>
+
+</div>
+</body>
+</html>
